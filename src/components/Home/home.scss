@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+.home{
+    background-image: url('../../../public/assets/food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        padding-top: 18rem;
+        padding-bottom: 2rem;
+        padding-left: 3rem;
+        text-align: center;
+        font-size: 4rem;
+        font-family: 'Lobster', cursive;
+    }
+
+    p{
+        text-align: center;
+        font-size: 2rem;
+        margin: 1.6rem 40rem;
+        padding: 2rem auto;
+    }
+    .search{
+            display: flex;
+            gap: 4rem;
+            box-shadow: 5px 10px;
+            -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            border: 1px solid black;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            margin: 0 33rem;
+            height: 50px;
+            svg{
+                font-size: 30px;
+            }
+            input{
+                border: none;
+                width: 300px;
+                font-size: 20px;
+                padding: 5px 10px;
+                background-color: transparent;
+            }
+            input::-webkit-input-placeholder {
+                color: black; /*Change the placeholder color*/
+                opacity: 0.6; /*Change the opacity between 0 and 1*/
+                text-align: center;
+                margin-right: 1rem;
+                background-color: transparent;
+            }
+        }
+}
