@@ -1,0 +1,48 @@
+.mainnav{
+    display: flex;
+    gap: 30rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: 400ms;
+    h3{
+        font-size: 2rem;
+        padding: 1.5rem 3rem;
+    }
+    .navbar{
+        padding: 1.5rem 3rem;
+        display: flex;
+        text-align: center;
+        gap: 5rem;
+        align-items: center;
+
+        a{
+            font-size: 20px;
+            color: black;
+
+            &:hover{
+                color: #06746d;
+                transition: 400ms;
+            }
+        }
+
+        
+                button{
+                    font-size: 20px;
+                    background: transparent;
+                    border: none;
+
+                    &:hover{
+                        color: #06746d;
+                        cursor: pointer;
+                    }
+                }
+
+                
+            }
+            
+        }
+.mainnav-bg{
+    transition: 500ms;
+    background-color: rgba(191, 204, 49, 0.9); 
+}
