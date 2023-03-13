@@ -1,0 +1,46 @@
+.footer{
+    text-align: center;
+    display: grid;
+    background-color:  rgba(191, 204, 49, 0.9);
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+    gap: 1rem;
+
+    h2{
+        font-size: 30px;
+    }
+
+    .links{
+        display: inline-flex;
+        margin: 1rem auto;
+        gap: 2rem;
+        font-size: 20px;
+        text-align: center;
+
+        a{
+            color: black;
+           &:hover{
+                color: #06746d;
+                transition: 400ms;
+            }
+        }
+
+    }
+
+    .socials{
+        display: inline-flex;
+        margin: 1rem auto;
+        gap: 2rem;
+        font-size: 40px;
+        text-align: center;
+        color: black;
+
+        a{
+            color: black;
+            &:hover{
+                color: #06746d;
+                transition: 400ms;
+            }
+        }
+    }
+}
