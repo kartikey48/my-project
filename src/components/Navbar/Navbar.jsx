@@ -27,10 +27,10 @@ function Navbar() {
             <header className={color ? 'mainnav-bg mainnav':'mainnav' }>
             <h3>KHOJANALYA</h3>
             <nav className='navbar'>
-                <a href="">Home</a>
-                <a href="">Dishes</a>
-                <a href="">Resturants</a>
-                <button>Sign in</button>
+                <a href="#home">Home</a>
+                <a href="#dishes">Dishes</a>
+                <a href="#resturants">Resturants</a>
+                <a href='/signin'>Signin</a>
                 <button onClick={showNavbar}>
                     <FaShoppingBag />
                 </button>

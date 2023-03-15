@@ -29,7 +29,8 @@ export default class SimpleSlider extends Component {
       prevArrow: <SampleArrow />
     };
     return (
-      <div className="dishes">
+      <section id='dishes'>
+        <div className="dishes">
          <div >
         <h2>Items we deilver</h2>
         <Slider {...settings} className='slider'>
@@ -54,6 +55,8 @@ export default class SimpleSlider extends Component {
         </Slider>
       </div>
       </div>
+      </section>
+      
      
     );
   }

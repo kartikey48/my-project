@@ -21,3 +21,15 @@ body{
     color: black;
     line-height: 1.7;
 }
+button{
+    background-color: aqua;
+    color: black;
+    padding: 2rem 3rem;
+    text-align: center;
+    align-self: center;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
