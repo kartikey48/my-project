@@ -1,19 +1,22 @@
 import React,{useState} from 'react';
-import Home from './components/Home/Home';
-import Dishes from './components/Dishes/Dishes';
-import Resturants from './components/Resturants/Resturants';
-import Footer from './components/Footer/Footer';
-
+import Account from './Pages/Account';
+import Homepage from './Pages/Homepage';
+import Signin from './Pages/Signin';
+import { Route, Routes} from 'react-router-dom';
+import { AuthContextProvider } from './context/AuthContext';
+import Protected from './components/Protected';
 function App() {
 
 
   return (
-    <>
-    <Home/>
-    <Dishes/>
-    <Resturants/>
-    <Footer/>
-    </>
+    <AuthContextProvider>
+      <Routes>
+        <Route path='/' element={<Homepage/>}/>
+        <Route path='/signin' element={<Signin/>}/>
+        <Route path='/account' element={<Protected><Account/></Protected>}/>
+      </Routes>
+    </AuthContextProvider>
+    
 )  
 }
 export default App;

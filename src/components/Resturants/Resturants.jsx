@@ -4,7 +4,8 @@ import Resturant from './Resturant'
 
 const Resturants = () => {
   return (
-    <div className='resturants-container'>
+    <section id='resturants'>
+      <div className='resturants-container'>
         <h2>Popular resturants around you</h2>
         <div className="resturants">
         <Resturant 
@@ -58,6 +59,8 @@ const Resturants = () => {
         </div>
         
     </div>
+    </section>
+    
   )
 }
 

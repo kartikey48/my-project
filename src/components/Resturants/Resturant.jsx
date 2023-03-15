@@ -2,6 +2,7 @@ import React from 'react'
 import {AiFillStar} from 'react-icons/ai'
 const Resturant = (props) => {
   return (
+    
     <div className='resturant'>
         <img src={props.image} alt="" />
         <div className='details'>
